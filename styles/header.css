@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+header {
+	background-image: url("https://seekersguidance.org/wp-content/uploads/2022/01/shutterstock_1534639589-1210x423.jpg");
+	background-position: calc();
+	background-size: cover;
+	background-repeat: no-repeat;
+    padding: 5rem 0;
+	margin-bottom:5rem ;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container img{
+    width: 400px;
+    height: 300px;
+}
+.header-intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	text-align: right;
+}
+.header-intro h1 {
+	color: white;
+}
+.header-intro p {
+	max-width: 500px;
+	color: white;
+	text-align: right;
+	margin: 1.5rem 0;
+}
+button {
+	width: 160px;
+	height: 64px;
+	background: white;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	font-weight: 600;
+	font-size: 20px;
+	font-weight: 600;
+	color: #005fac;
+}

@@ -1,0 +1,45 @@
+footer {
+    margin-top: 5rem;
+	background: black;
+}
+.footer-container {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 5rem 1rem;
+}
+.footer-ls {
+	width: fit-content;
+}
+.footer-ls p {
+	width: 300px;
+	margin: 1rem 0;
+}
+.footer-ls .social {
+	display: flex;
+}
+.footer-ls .social img {
+	width: 40px;
+	margin-right: 1rem;
+}
+.footer-rs {
+	display: flex;
+	flex-direction: column;
+}
+.footer-rs input {
+	margin: 1rem 0;
+	width: 300px;
+	background-color: black;
+	border: 1px solid rgba(255, 255, 255, 0.582);
+	border-radius: 3px;
+	color: white;
+	outline: none;
+	padding: 0.7rem;
+}
+.footer-rs button {
+	width: 100px;
+	font-size: 14px;
+	background: #005fac;
+	height: 40px;
+	color: white;
+}

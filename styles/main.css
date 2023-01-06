@@ -1,0 +1,72 @@
+/* service section  */
+.service-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.service-container img {
+	width: 400px;
+}
+.service-container .service-details {
+	width: 400px;
+}
+.service-container .service-details h2 {
+	margin-top: 5rem;
+}
+.service-container .service-details p {
+	margin: 1rem 0;
+}
+.service-container .service-details ul {
+	list-style: none;
+}
+.service-container .service-details li {
+	margin: 1rem 0;
+}
+.service-container .service-details li i {
+	color: #00d98c;
+}
+
+/* plan section  */
+.plan-container {
+	margin: 5rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.plan-items {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 3rem;
+}
+.plan-item {
+	display: flex;
+	flex-direction: column;
+	align-content: inherit;
+	justify-content: center;
+	text-align: center;
+}
+.plan-item h5 {
+	margin: 1rem 0;
+}
+.plan-item img {
+	width: 100px;
+	height: 100px;
+}
+.contact-container {
+	padding: 3rem;
+	border-radius: 5px;
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 255, 0, 0.4),
+			rgba(0, 0, 0, 0.5)
+		),
+		url("../images/watch.png");
+}
+.contact-container h4 {
+	font-size: 25px;
+	color: white;
+	margin: 2rem 0;
+}
