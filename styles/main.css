@@ -26,6 +26,21 @@
 	color: #00d98c;
 }
 
+/* about us  */
+.aboutus-container {
+	background-color: #00d98c;
+	margin-top: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 5rem 2rem;
+}
+.aboutus-container h2 {
+	margin-bottom: 2rem;
+}
+
 /* plan section  */
 .plan-container {
 	margin: 5rem 0;
@@ -55,6 +70,8 @@
 	width: 100px;
 	height: 100px;
 }
+
+/* contact  */
 .contact-container {
 	padding: 3rem;
 	border-radius: 5px;

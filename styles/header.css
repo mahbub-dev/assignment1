@@ -6,24 +6,19 @@
 }
 header {
 	background-image: url("https://seekersguidance.org/wp-content/uploads/2022/01/shutterstock_1534639589-1210x423.jpg");
-	background-position: calc();
 	background-size: cover;
 	background-repeat: no-repeat;
-    padding: 5rem 0;
-	margin-bottom:5rem ;
+	padding: 5rem 0;
+	margin-bottom: 5rem;
 }
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
 	padding: 1rem;
 }
-.header-container{
-    display: flex;
-    justify-content: space-between;
-}
-.header-container img{
-    width: 400px;
-    height: 300px;
+.header-container {
+	display: flex;
+	justify-content: space-between;
 }
 .header-intro {
 	display: flex;
