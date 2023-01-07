@@ -5,7 +5,7 @@
 	scroll-behavior: smooth;
 }
 header {
-	background-image: url("https://seekersguidance.org/wp-content/uploads/2022/01/shutterstock_1534639589-1210x423.jpg");
+	background-image: url("./banner2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 5rem 0;
@@ -16,10 +16,7 @@ header {
 	margin: 0 auto;
 	padding: 1rem;
 }
-.header-container {
-	display: flex;
-	justify-content: space-between;
-}
+
 .header-intro {
 	display: flex;
 	flex-direction: column;
@@ -28,7 +25,8 @@ header {
 	text-align: right;
 }
 .header-intro h1 {
-	color: white;
+	color: black;
+	font-size: 60px;
 }
 .header-intro p {
 	max-width: 500px;
@@ -39,13 +37,14 @@ header {
 button {
 	width: 160px;
 	height: 64px;
-	background: white;
+	background: #fc6031;
 	cursor: pointer;
+
 	border: none;
 	outline: none;
 	border-radius: 3px;
 	font-weight: 600;
 	font-size: 20px;
 	font-weight: 600;
-	color: #005fac;
+	color: white;
 }

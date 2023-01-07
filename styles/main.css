@@ -87,3 +87,7 @@
 	color: white;
 	margin: 2rem 0;
 }
+.contact-container button {
+	background: white;
+	color: green;
+}
