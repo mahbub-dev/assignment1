@@ -37,9 +37,9 @@ footer {
 	padding: 0.7rem;
 }
 .footer-rs button {
-	width: 100px;
-	font-size: 14px;
-	background: #005fac;
-	height: 40px;
-	color: white;
+    width: 100px;
+    font-size: 14px;
+    background: white;
+    height: 40px;
+    color: #fc6031;
 }
